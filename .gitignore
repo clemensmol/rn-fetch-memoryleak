@@ -1,0 +1,86 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+ios/.xcode.env.local
+
+# VSCode
+#
+.history/
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+.project
+android/.settings
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# fastlane
+#
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+#
+*.jsbundle
+*.jsbundle.meta
+
+# Android build artifacts
+#
+index.android.bundle
+/android/app/src/main/res/**/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png
+/android/app/src/main/res/**/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backiconmask.png
+/android/app/src/main/res/raw/*.json
+
+# Ruby / CocoaPods
+/ios/Pods/**/
+/vendor/bundle/
+
+# Deployment
+#
+.githubtoken
+*.cer
+*dSYM.zip
+*.ipa
+*.mobileprovision
+metadata/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# testing
+/coverage
+
+# custom
+.env.local
