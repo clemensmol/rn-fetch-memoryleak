@@ -15,9 +15,11 @@ function App(): JSX.Element {
           Accept: 'application/json',
           'Content-Type': 'application/json',
         },
-      }).then(() => {
-        resolve();
-      });
+      })
+        .then(() => {
+          resolve();
+        })
+        .catch(error => console.error(error));
     });
   }, []);
 
